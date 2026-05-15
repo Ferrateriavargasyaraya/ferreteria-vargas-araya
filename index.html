@@ -1,686 +1,160 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ferretería Vargas y Araya</title>
-
-  <meta
-    name="description"
-    content="Ferretería Vargas y Araya en Ciruelas de Alajuela. Herramientas, electricidad, fontanería, pinturas, tornillería, agregados y más."
-  />
-
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
-  </style>
 </head>
-
-<body class="min-h-screen bg-slate-50 text-slate-900">
-
+<body class="bg-slate-50 text-slate-900">
   <header class="sticky top-0 z-50 border-b bg-white/90 backdrop-blur">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-
-      <a href="index.html" class="flex items-center gap-3">
-        <img
-          src="logo.png"
-          alt="Logo Ferretería Vargas y Araya"
-          class="h-14 w-auto rounded-lg object-contain"
-        />
-      </a>
-
-      <nav class="hidden items-center gap-6 text-sm font-medium text-slate-700 md:flex">
-        <a href="#inicio" class="hover:text-blue-700">Inicio</a>
-        <a href="#quienes-somos" class="hover:text-blue-700">Quiénes somos</a>
-        <a href="#categorias" class="hover:text-blue-700">Productos</a>
-        <a href="#promociones" class="hover:text-blue-700">Promociones</a>
-        <a href="#fotos" class="hover:text-blue-700">Fotos</a>
-        <a href="#ubicacion" class="hover:text-blue-700">Ubicación</a>
+      <a href="index.html"><img src="logo.png" class="h-14 w-auto object-contain" alt="Logo Ferretería Vargas y Araya"></a>
+      <nav class="hidden gap-6 text-sm font-semibold md:flex">
+        <a href="#inicio">Inicio</a><a href="#quienes-somos">Quiénes somos</a><a href="#categorias">Productos</a><a href="#promociones">Promociones</a><a href="#fotos">Fotos</a><a href="#ubicacion">Ubicación</a>
       </nav>
-
-      <a
-        class="rounded-full bg-green-600 px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-green-700"
-        href="https://wa.me/50689789354?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20disponibilidad%20y%20precio%20de%20un%20producto."
-        target="_blank"
-        rel="noreferrer"
-      >
-        💬 WhatsApp
-      </a>
-
+      <a class="rounded-full bg-green-600 px-4 py-2 text-sm font-bold text-white" href="https://wa.me/50689789354?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20disponibilidad%20y%20precio%20de%20un%20producto." target="_blank">💬 WhatsApp</a>
     </div>
   </header>
 
-  <main>
-
-    <section id="inicio" class="relative overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700">
-      <div class="absolute inset-0 opacity-20">
-        <div class="absolute -left-20 top-20 h-72 w-72 rounded-full bg-white blur-3xl"></div>
-        <div class="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-red-500 blur-3xl"></div>
-      </div>
-
-      <div class="relative mx-auto grid max-w-7xl items-center gap-10 px-4 py-20 md:grid-cols-2 md:py-28">
-
-        <div>
-          <div class="mb-6 inline-flex rounded-2xl bg-white p-3 shadow-xl">
-            <img
-              src="logo.png"
-              alt="Logo Ferretería Vargas y Araya"
-              class="h-20 w-auto object-contain"
-            />
-          </div>
-
-          <br />
-
-          <span class="inline-flex rounded-full bg-white/15 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/20">
-            Calidad • Servicio • Confianza
-          </span>
-
-          <h1 class="mt-6 text-4xl font-black tracking-tight text-white md:text-6xl">
-            Su ferretería de confianza en Ciruelas de Alajuela
-          </h1>
-
-          <p class="mt-4 text-2xl font-bold text-blue-100 md:text-3xl">
-            Todo para construcción, reparación y mantenimiento.
-          </p>
-
-          <p class="mt-5 max-w-xl text-lg leading-8 text-blue-50">
-            En Ferretería Vargas y Araya le ofrecemos productos de ferretería, herramientas, electricidad, fontanería,
-            pinturas y mucho más, con atención personalizada, cercana y rápida.
-          </p>
-
-          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a
-              class="rounded-full bg-green-600 px-6 py-3 text-center font-bold text-white shadow-md hover:bg-green-700"
-              href="https://wa.me/50689789354?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20disponibilidad%20y%20precio%20de%20un%20producto."
-              target="_blank"
-              rel="noreferrer"
-            >
-              💬 Consultar por WhatsApp
-            </a>
-
-            <a
-              class="rounded-full bg-white px-6 py-3 text-center font-bold text-blue-800 shadow-md hover:bg-blue-50"
-              href="https://www.google.com/maps/place/Ferreteria+Vargas+y+Araya/@9.9824399,-84.2645377,17z/data=!3m1!4b1!4m6!3m5!1s0x8fa0f8868b0b7083:0xeac5f6e66c46865c!8m2!3d9.9824399!4d-84.2619628!16s%2Fg%2F11c531tt_b?entry=ttu"
-              target="_blank"
-              rel="noreferrer"
-            >
-              📍 Cómo llegar
-            </a>
-          </div>
-        </div>
-
-        <div class="relative">
-          <div class="rounded-[2rem] bg-white p-4 shadow-2xl">
-            <img
-              src="frente-ferreteria.jpg"
-              alt="Frente de Ferretería Vargas y Araya"
-              class="h-[360px] w-full rounded-[1.5rem] object-cover"
-            />
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="mx-auto max-w-7xl px-4 py-16">
-      <div class="grid gap-4 md:grid-cols-3">
-
-        <div class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100">
-          <div class="flex gap-4">
-            <span class="text-3xl">📞</span>
-            <div>
-              <h3 class="font-bold">Atención directa</h3>
-              <p class="mt-1 text-sm text-slate-600">
-                Teléfono: 2244-4731 | WhatsApp: 8978-9354
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100">
-          <div class="flex gap-4">
-            <span class="text-3xl">🕒</span>
-            <div>
-              <h3 class="font-bold">Horario</h3>
-              <p class="mt-1 text-sm text-slate-600">
-                Lunes a viernes de 6:30 a.m. a 5:00 p.m. y sábado de 6:30 a.m. a 12:00 m.d.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100">
-          <div class="flex gap-4">
-            <span class="text-3xl">📍</span>
-            <div>
-              <h3 class="font-bold">Ubicación</h3>
-              <p class="mt-1 text-sm text-slate-600">
-                Ciruelas, Alajuela, 300 metros noreste del supermercado La Central, frente a la entrada de Boston Scientific, mano izquierda.
-              </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="quienes-somos" class="bg-white py-16">
-      <div class="mx-auto grid max-w-7xl items-center gap-8 px-4 md:grid-cols-2">
-
-        <div>
-          <p class="font-bold uppercase tracking-widest text-red-600">Quiénes somos</p>
-          <h2 class="mt-2 text-3xl font-black md:text-4xl">
-            Una ferretería cercana, práctica y confiable
-          </h2>
-
-          <p class="mt-5 text-lg leading-8 text-slate-600">
-            Somos una ferretería ubicada en Ciruelas de Alajuela, reconocida por brindar una atención personalizada,
-            cercana y comprometida con cada cliente. Ofrecemos productos de calidad y soluciones prácticas para
-            construcción, mantenimiento y reparaciones del hogar.
-          </p>
-
-          <p class="mt-4 leading-7 text-slate-600">
-            Nuestro objetivo es ayudarle a encontrar lo que necesita de forma rápida y sencilla, orientándole según su
-            proyecto, reparación o necesidad, ya sea visitándonos en el local o consultando directamente por WhatsApp.
-          </p>
-        </div>
-
-        <div class="rounded-[2rem] bg-blue-50 p-8 shadow-sm ring-1 ring-blue-100">
-          <div class="grid gap-4 sm:grid-cols-2">
-
-            <div class="rounded-3xl bg-white p-5 shadow-sm">
-              <p class="text-4xl">🤝</p>
-              <h3 class="mt-3 font-bold">Atención personalizada</h3>
-              <p class="mt-2 text-sm text-slate-600">
-                Nos hemos destacado por brindar un trato cercano y orientación según la necesidad de cada cliente.
-              </p>
-            </div>
-
-            <div class="rounded-3xl bg-white p-5 shadow-sm">
-              <p class="text-4xl">✅</p>
-              <h3 class="mt-3 font-bold">Productos de calidad</h3>
-              <p class="mt-2 text-sm text-slate-600">
-                Opciones para construcción, reparación y mantenimiento.
-              </p>
-            </div>
-
-            <div class="rounded-3xl bg-white p-5 shadow-sm sm:col-span-2">
-              <p class="text-4xl">💬</p>
-              <h3 class="mt-3 font-bold">Consulta fácil por WhatsApp</h3>
-              <p class="mt-2 text-sm text-slate-600">
-                Puede escribirnos para consultar disponibilidad, precios o información de productos.
-              </p>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="categorias" class="bg-white py-16">
-      <div class="mx-auto max-w-7xl px-4">
-
-        <div class="max-w-2xl">
-          <p class="font-bold uppercase tracking-widest text-red-600">Productos</p>
-          <h2 class="mt-2 text-3xl font-black md:text-4xl">Categorías principales</h2>
-          <p class="mt-4 text-slate-600">
-            Toque una categoría para ver subcategorías o consultar disponibilidad por WhatsApp.
-          </p>
-        </div>
-
-        <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-
-          <a href="herramientas.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🔨</div>
-            <h3 class="mt-5 text-xl font-extrabold">Herramientas</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Herramientas manuales, eléctricas, accesorios y equipo para trabajo diario.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-          <a href="electricidad.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">⚡</div>
-            <h3 class="mt-5 text-xl font-extrabold">Electricidad</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Centros de carga, cables, bombillos, breakers, tomas y apagadores.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-          <a href="fontaneria.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🚰</div>
-            <h3 class="mt-5 text-xl font-extrabold">Fontanería</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Tubos, conexiones, llaves, mangueras y accesorios para instalaciones de agua.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-          <a href="pinturas.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🎨</div>
-            <h3 class="mt-5 text-xl font-extrabold">Pinturas</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Pinturas, brochas, rodillos, solventes y productos para acabados.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-          <a href="tornilleria.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🔩</div>
-            <h3 class="mt-5 text-xl font-extrabold">Tornillería</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Tornillos, clavos, tuercas, arandelas y piezas de fijación.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-          <a href="agregados.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🧱</div>
-            <h3 class="mt-5 text-xl font-extrabold">Agregados</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Arena, piedra, lastre y productos relacionados para construcción y reparación.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-          <a href="jardineria.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🌿</div>
-            <h3 class="mt-5 text-xl font-extrabold">Jardinería</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Productos y herramientas para jardín, patios y áreas verdes.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-          <a href="adhesivos-selladores.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🧴</div>
-            <h3 class="mt-5 text-xl font-extrabold">Adhesivos y selladores</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Silicones, pegamentos, selladores y productos para unión o reparación.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-          <a href="cerrajeria.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🔐</div>
-            <h3 class="mt-5 text-xl font-extrabold">Cerraduras, herrajes y cerrajería</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Cerraduras, bisagras, llavines, candados, accesorios para puertas y cerrajería.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-          <a href="limpieza-mantenimiento.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
-            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🧽</div>
-            <h3 class="mt-5 text-xl font-extrabold">Limpieza y mantenimiento</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-              Productos para limpieza, cuidado del hogar y mantenimiento diario.
-            </p>
-            <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
-          </a>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="promociones" class="mx-auto max-w-7xl px-4 py-16">
-      <div class="grid items-center gap-8 md:grid-cols-2">
-
-        <div>
-          <p class="font-bold uppercase tracking-widest text-red-600">Promociones</p>
-          <h2 class="mt-2 text-3xl font-black md:text-4xl">Ofertas, rifas y novedades</h2>
-          <p class="mt-4 text-slate-600">
-            Consulte nuestras promociones disponibles por WhatsApp o visite nuestro Facebook para ver ofertas, rifas y productos destacados.
-          </p>
-
-          <div class="mt-6 space-y-3">
-            <div class="flex items-center gap-3 rounded-2xl bg-white p-4 shadow-sm">
-              <span>🎁</span>
-              <span class="font-medium">Promociones disponibles por temporada</span>
-            </div>
-
-            <div class="flex items-center gap-3 rounded-2xl bg-white p-4 shadow-sm">
-              <span>🎁</span>
-              <span class="font-medium">Ofertas, rifas y productos destacados en Facebook</span>
-            </div>
-
-            <div class="flex items-center gap-3 rounded-2xl bg-white p-4 shadow-sm">
-              <span>🎁</span>
-              <span class="font-medium">Consultas rápidas por WhatsApp</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="overflow-hidden rounded-[2rem] bg-white shadow-xl ring-1 ring-slate-100">
-          <img
-            src="rifa-carro.jpg"
-            alt="Rifa de carro Ferretería Vargas y Araya"
-            class="h-64 w-full object-cover"
-          />
-
-          <div class="bg-gradient-to-br from-red-600 to-red-700 p-8 text-white">
-            <p class="text-4xl">🚗</p>
-            <h3 class="mt-4 text-3xl font-black">Rifa de carro</h3>
-            <p class="mt-3 text-red-50">
-              Participe en nuestra rifa del carro. Por compras mayores a ₡50.000 recibe una acción para participar.
-              Además, por compras mayores a ₡1.000.000 recibe 10 acciones. Sorteo el 12 de diciembre.
-              Consulte más información por WhatsApp o en nuestro Facebook.
-            </p>
-
-            <div class="mt-6 flex flex-col gap-3 sm:flex-row">
-              <a
-                class="rounded-full bg-white px-5 py-3 text-center font-bold text-red-700 hover:bg-red-50"
-                href="https://wa.me/50689789354?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20disponibilidad%20y%20precio%20de%20un%20producto."
-                target="_blank"
-                rel="noreferrer"
-              >
-                Consultar por WhatsApp
-              </a>
-
-              <a
-                class="rounded-full bg-red-800 px-5 py-3 text-center font-bold text-white hover:bg-red-900"
-                href="https://www.facebook.com/VargasyAraya"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ver Facebook
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="fotos" class="bg-white py-16">
-      <div class="mx-auto max-w-7xl px-4">
-
-        <div class="max-w-2xl">
-          <p class="font-bold uppercase tracking-widest text-red-600">Conozca nuestra ferretería</p>
-          <h2 class="mt-2 text-3xl font-black md:text-4xl">Productos, atención y variedad en un solo lugar</h2>
-          <p class="mt-4 text-slate-600">
-            Visítenos en Ciruelas de Alajuela o escríbanos por WhatsApp para consultar disponibilidad y precio de productos.
-          </p>
-        </div>
-
-        <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-
-          <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-100">
-            <img src="pinturas.jpg" alt="Área de pinturas" class="h-64 w-full object-cover" />
-            <div class="p-5">
-              <h3 class="text-lg font-extrabold">Área de pinturas</h3>
-              <p class="mt-2 text-sm text-slate-600">Pinturas, solventes y accesorios para acabados y mantenimiento.</p>
-            </div>
-          </div>
-
-          <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-100">
-            <img src="pasillo-ferreteria.jpg" alt="Pasillo principal de la ferretería" class="h-64 w-full object-cover" />
-            <div class="p-5">
-              <h3 class="text-lg font-extrabold">Pasillo principal</h3>
-              <p class="mt-2 text-sm text-slate-600">Diferentes secciones y productos para atención al cliente en un solo lugar.</p>
-            </div>
-          </div>
-
-          <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-100">
-            <img src="frente-ferreteria.jpg" alt="Frente de la ferretería" class="h-64 w-full object-cover" />
-            <div class="p-5">
-              <h3 class="text-lg font-extrabold">Frente de la ferretería</h3>
-              <p class="mt-2 text-sm text-slate-600">Ubicación principal de Ferretería Vargas y Araya en Ciruelas de Alajuela.</p>
-            </div>
-          </div>
-
-          <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-100">
-            <img src="bodega-fontaneria.jpg" alt="Fontanería y PVC" class="h-64 w-full object-cover" />
-            <div class="p-5">
-              <h3 class="text-lg font-extrabold">Fontanería y PVC</h3>
-              <p class="mt-2 text-sm text-slate-600">Tuberías, conexiones y accesorios para instalaciones de agua.</p>
-            </div>
-          </div>
-
-          <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-100">
-            <img src="centro-tornillos.jpg" alt="Centro de tornillos" class="h-64 w-full object-cover" />
-            <div class="p-5">
-              <h3 class="text-lg font-extrabold">Centro de tornillos</h3>
-              <p class="mt-2 text-sm text-slate-600">Gran variedad de tornillería, fijaciones y productos relacionados.</p>
-            </div>
-          </div>
-
-          <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-100">
-            <img src="area-cables.jpg" alt="Área de cables" class="h-64 w-full object-cover" />
-            <div class="p-5">
-              <h3 class="text-lg font-extrabold">Área de cables</h3>
-              <p class="mt-2 text-sm text-slate-600">Cables, conductores y materiales eléctricos organizados por tipo.</p>
-            </div>
-          </div>
-
-          <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-100 sm:col-span-2 lg:col-span-1">
-            <img src="bodega-mezanine.jpg" alt="Bodega y mezanine" class="h-64 w-full object-cover" />
-            <div class="p-5">
-              <h3 class="text-lg font-extrabold">Bodega y mezanine</h3>
-              <p class="mt-2 text-sm text-slate-600">Espacio de almacenamiento para productos, materiales y apoyo logístico.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="mx-auto max-w-7xl px-4 py-16">
-      <div class="overflow-hidden rounded-[2rem] bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 p-8 text-white shadow-xl md:p-12">
-
-        <div class="grid items-center gap-8 md:grid-cols-2">
-
-          <div>
-            <p class="font-bold uppercase tracking-widest text-blue-100">¿Necesita ayuda con algún producto?</p>
-            <h2 class="mt-3 text-3xl font-black md:text-4xl">Consulte disponibilidad y precio por WhatsApp</h2>
-            <p class="mt-4 text-blue-50">
-              Escríbanos y con gusto le ayudamos a encontrar el producto que necesita para su proyecto, reparación o mantenimiento.
-            </p>
-          </div>
-
-          <div class="flex flex-col gap-3 sm:flex-row md:justify-end">
-            <a
-              class="rounded-full bg-green-600 px-6 py-3 text-center font-bold text-white shadow-md hover:bg-green-700"
-              href="https://wa.me/50689789354?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20disponibilidad%20y%20precio%20de%20un%20producto."
-              target="_blank"
-              rel="noreferrer"
-            >
-              💬 Consultar por WhatsApp
-            </a>
-
-            <a
-              class="rounded-full bg-white px-6 py-3 text-center font-bold text-blue-800 shadow-md hover:bg-blue-50"
-              href="https://www.google.com/maps/place/Ferreteria+Vargas+y+Araya/@9.9824399,-84.2645377,17z/data=!3m1!4b1!4m6!3m5!1s0x8fa0f8868b0b7083:0xeac5f6e66c46865c!8m2!3d9.9824399!4d-84.2619628!16s%2Fg%2F11c531tt_b?entry=ttu"
-              target="_blank"
-              rel="noreferrer"
-            >
-              📍 Cómo llegar
-            </a>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="ubicacion" class="bg-white py-16">
-      <div class="mx-auto grid max-w-7xl gap-8 px-4 md:grid-cols-2">
-
-        <div>
-          <p class="font-bold uppercase tracking-widest text-red-600">Visítenos</p>
-          <h2 class="mt-2 text-3xl font-black md:text-4xl">Ubicación y contacto</h2>
-          <p class="mt-4 text-slate-600">
-            Estamos ubicados en Ciruelas, Alajuela, 300 metros noreste del supermercado La Central, frente a la entrada
-            de Boston Scientific, mano izquierda.
-          </p>
-
-          <div class="mt-8 space-y-4">
-
-            <div class="flex gap-3">
-              <span>📍</span>
-              <span>Ciruelas, Alajuela, 300 metros noreste del supermercado La Central, frente a la entrada de Boston Scientific, mano izquierda.</span>
-            </div>
-
-            <div class="flex gap-3">
-              <span>🕒</span>
-              <span>Lunes a viernes de 6:30 a.m. a 5:00 p.m. y sábado de 6:30 a.m. a 12:00 m.d.</span>
-            </div>
-
-            <div class="flex gap-3">
-              <span>📞</span>
-              <span>Teléfono: 2244-4731 | WhatsApp: 8978-9354</span>
-            </div>
-
-            <div class="flex gap-3">
-              <span>📘</span>
-              <a class="font-semibold text-blue-700 hover:underline" href="https://www.facebook.com/VargasyAraya" target="_blank" rel="noreferrer">
-                Facebook: Ferretería Vargas y Araya
-              </a>
-            </div>
-
-            <div class="flex gap-3">
-              <span>📸</span>
-              <a class="font-semibold text-blue-700 hover:underline" href="https://www.instagram.com/ferrevargasyaraya" target="_blank" rel="noreferrer">
-                Instagram: @ferrevargasyaraya
-              </a>
-            </div>
-
-            <div class="flex gap-3">
-              <span>🗺️</span>
-              <a
-                class="font-semibold text-blue-700 hover:underline"
-                href="https://www.google.com/maps/place/Ferreteria+Vargas+y+Araya/@9.9824399,-84.2645377,17z/data=!3m1!4b1!4m6!3m5!1s0x8fa0f8868b0b7083:0xeac5f6e66c46865c!8m2!3d9.9824399!4d-84.2619628!16s%2Fg%2F11c531tt_b?entry=ttu"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Abrir ubicación en Google Maps
-              </a>
-            </div>
-
-            <div class="flex gap-3">
-              <span>🚗</span>
-              <a
-                class="font-semibold text-blue-700 hover:underline"
-                href="https://waze.com/ul?ll=9.9824399%2C-84.2619628&navigate=yes"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Abrir ubicación en Waze
-              </a>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="overflow-hidden rounded-[2rem] bg-slate-100 shadow-sm ring-1 ring-slate-200">
-          <iframe
-            title="Mapa Ferretería Vargas y Araya"
-            src="https://maps.google.com/maps?q=Ferreteria%20Vargas%20y%20Araya%20Ciruelas%20Alajuela&t=&z=17&ie=UTF8&iwloc=&output=embed"
-            class="h-[360px] w-full border-0"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-
-          <div class="p-5 text-center">
-            <h3 class="text-xl font-bold">Ferretería Vargas y Araya</h3>
-            <p class="mt-2 text-sm text-slate-600">
-              Abra la ubicación en Google Maps o Waze para iniciar la ruta.
-            </p>
-
-            <div class="mt-5 flex flex-col justify-center gap-3 sm:flex-row">
-              <a
-                class="inline-block rounded-full bg-blue-700 px-5 py-3 font-bold text-white hover:bg-blue-800"
-                href="https://www.google.com/maps/place/Ferreteria+Vargas+y+Araya/@9.9824399,-84.2645377,17z/data=!3m1!4b1!4m6!3m5!1s0x8fa0f8868b0b7083:0xeac5f6e66c46865c!8m2!3d9.9824399!4d-84.2619628!16s%2Fg%2F11c531tt_b?entry=ttu"
-                target="_blank"
-                rel="noreferrer"
-              >
-                📍 Google Maps
-              </a>
-
-              <a
-                class="inline-block rounded-full bg-cyan-600 px-5 py-3 font-bold text-white hover:bg-cyan-700"
-                href="https://waze.com/ul?ll=9.9824399%2C-84.2619628&navigate=yes"
-                target="_blank"
-                rel="noreferrer"
-              >
-                🚗 Waze
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="bg-slate-950 px-4 py-10 text-white">
-    <div class="mx-auto flex max-w-7xl flex-col justify-between gap-6 md:flex-row md:items-center">
-
+  <section id="inicio" class="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700">
+    <div class="mx-auto grid max-w-7xl gap-10 px-4 py-20 md:grid-cols-2 md:py-28">
       <div>
-        <h2 class="text-2xl font-black">Ferretería Vargas y Araya</h2>
-        <p class="mt-2 text-slate-300">Estamos a la orden para todo lo que necesite.</p>
+        <div class="mb-6 inline-flex rounded-2xl bg-white p-3 shadow-xl"><img src="logo.png" class="h-20 w-auto object-contain" alt="Logo"></div>
+        <p class="inline-flex rounded-full bg-white/15 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/20">Calidad • Servicio • Confianza</p>
+        <h1 class="mt-6 text-4xl font-black tracking-tight text-white md:text-6xl">Su ferretería de confianza en Ciruelas de Alajuela</h1>
+        <p class="mt-4 text-2xl font-bold text-blue-100">Todo para construcción, reparación y mantenimiento.</p>
+        <p class="mt-5 max-w-xl text-lg leading-8 text-blue-50">En Ferretería Vargas y Araya le ofrecemos productos de ferretería, herramientas, electricidad, fontanería, pinturas y mucho más, con atención personalizada.</p>
       </div>
+      <div class="rounded-[2rem] bg-white p-4 shadow-2xl"><img src="frente-ferreteria.jpg" class="h-[360px] w-full rounded-[1.5rem] object-cover" alt="Frente de la ferretería"></div>
+    </div>
+  </section>
 
-      <div class="flex flex-col gap-3 sm:flex-row">
+  <section class="mx-auto max-w-7xl px-4 py-16">
+    <div class="grid gap-4 md:grid-cols-3">
+      <div class="rounded-3xl bg-white p-6 shadow-sm"><h3 class="font-bold">📞 Atención directa</h3><p class="mt-1 text-sm text-slate-600">Teléfono: 2244-4731 | WhatsApp: 8978-9354</p></div>
+      <div class="rounded-3xl bg-white p-6 shadow-sm"><h3 class="font-bold">🕒 Horario</h3><p class="mt-1 text-sm text-slate-600">Lunes a viernes de 6:30 a.m. a 5:00 p.m. y sábado de 6:30 a.m. a 12:00 m.d.</p></div>
+      <div class="rounded-3xl bg-white p-6 shadow-sm"><h3 class="font-bold">📍 Ubicación</h3><p class="mt-1 text-sm text-slate-600">Ciruelas, Alajuela, 300 metros noreste del supermercado La Central, frente a la entrada de Boston Scientific.</p></div>
+    </div>
+  </section>
 
-        <a
-          class="rounded-full bg-blue-700 px-5 py-3 text-center font-bold text-white hover:bg-blue-800"
-          href="https://www.google.com/maps/place/Ferreteria+Vargas+y+Araya/@9.9824399,-84.2645377,17z/data=!3m1!4b1!4m6!3m5!1s0x8fa0f8868b0b7083:0xeac5f6e66c46865c!8m2!3d9.9824399!4d-84.2619628!16s%2Fg%2F11c531tt_b?entry=ttu"
-          target="_blank"
-          rel="noreferrer"
-        >
-          📍 Google Maps
-        </a>
+  <section id="quienes-somos" class="bg-white py-16">
+    <div class="mx-auto max-w-7xl px-4">
+      <p class="font-bold uppercase tracking-widest text-red-600">Quiénes somos</p>
+      <h2 class="mt-2 text-3xl font-black md:text-4xl">Una ferretería cercana, práctica y confiable</h2>
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-600">Somos una ferretería ubicada en Ciruelas de Alajuela, reconocida por brindar una atención personalizada, cercana y comprometida con cada cliente.</p>
+    </div>
+  </section>
 
-        <a
-          class="rounded-full bg-cyan-600 px-5 py-3 text-center font-bold text-white hover:bg-cyan-700"
-          href="https://waze.com/ul?ll=9.9824399%2C-84.2619628&navigate=yes"
-          target="_blank"
-          rel="noreferrer"
-        >
-          🚗 Waze
-        </a>
+  <section id="categorias" class="bg-white py-16">
+    <div class="mx-auto max-w-7xl px-4">
+      <p class="font-bold uppercase tracking-widest text-red-600">Productos</p>
+      <h2 class="mt-2 text-3xl font-black md:text-4xl">Categorías principales</h2>
+      <p class="mt-4 text-slate-600">Toque una categoría para ver sus subcategorías.</p>
+      <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
 
-        <a
-          class="rounded-full bg-blue-700 px-5 py-3 text-center font-bold text-white hover:bg-blue-800"
-          href="https://www.facebook.com/VargasyAraya"
-          target="_blank"
-          rel="noreferrer"
-        >
-          📘 Ver Facebook
-        </a>
+<a href="herramientas.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🔨</div>
+  <h3 class="mt-5 text-xl font-extrabold">Herramientas</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Herramientas manuales, eléctricas, accesorios y equipo para trabajo diario.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
 
-        <a
-          class="rounded-full bg-pink-600 px-5 py-3 text-center font-bold text-white hover:bg-pink-700"
-          href="https://www.instagram.com/ferrevargasyaraya"
-          target="_blank"
-          rel="noreferrer"
-        >
-          📸 Ver Instagram
-        </a>
+<a href="electricidad.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">⚡</div>
+  <h3 class="mt-5 text-xl font-extrabold">Electricidad</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Centros de carga, cables, bombillos, breakers, tomas y apagadores.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
 
-        <a
-          class="rounded-full bg-green-600 px-5 py-3 text-center font-bold text-white hover:bg-green-700"
-          href="https://wa.me/50689789354?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20disponibilidad%20y%20precio%20de%20un%20producto."
-          target="_blank"
-          rel="noreferrer"
-        >
-          💬 Escribir por WhatsApp
-        </a>
+<a href="fontaneria.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🚰</div>
+  <h3 class="mt-5 text-xl font-extrabold">Fontanería</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Tubos, conexiones, llaves, mangueras y accesorios para instalaciones de agua.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
 
+<a href="pinturas.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🎨</div>
+  <h3 class="mt-5 text-xl font-extrabold">Pinturas</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Pinturas, brochas, rodillos, solventes y productos para acabados.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
+
+<a href="tornilleria.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🔩</div>
+  <h3 class="mt-5 text-xl font-extrabold">Tornillería</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Tornillos, clavos, tuercas, arandelas y piezas de fijación.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
+
+<a href="agregados.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🧱</div>
+  <h3 class="mt-5 text-xl font-extrabold">Agregados</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Arena, piedra, lastre y productos relacionados para construcción y reparación.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
+
+<a href="jardineria.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🌿</div>
+  <h3 class="mt-5 text-xl font-extrabold">Jardinería</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Productos y herramientas para jardín, patios y áreas verdes.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
+
+<a href="adhesivos-selladores.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🧴</div>
+  <h3 class="mt-5 text-xl font-extrabold">Adhesivos y selladores</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Silicones, pegamentos, selladores y productos para unión o reparación.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
+
+<a href="cerrajeria.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🔐</div>
+  <h3 class="mt-5 text-xl font-extrabold">Cerraduras, herrajes y cerrajería</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Cerraduras, bisagras, llavines, candados y accesorios para puertas.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
+
+<a href="limpieza-mantenimiento.html" class="block rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md">
+  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🧽</div>
+  <h3 class="mt-5 text-xl font-extrabold">Limpieza y mantenimiento</h3>
+  <p class="mt-2 text-sm leading-6 text-slate-600">Productos para limpieza, cuidado del hogar y mantenimiento diario.</p>
+  <p class="mt-4 text-sm font-bold text-blue-700">Ver subcategorías →</p>
+</a>
       </div>
     </div>
-  </footer>
+  </section>
 
+  <section id="promociones" class="mx-auto max-w-7xl px-4 py-16">
+    <div class="grid gap-8 md:grid-cols-2">
+      <div><p class="font-bold uppercase tracking-widest text-red-600">Promociones</p><h2 class="mt-2 text-3xl font-black md:text-4xl">Ofertas, rifas y novedades</h2><p class="mt-4 text-slate-600">Consulte nuestras promociones disponibles por WhatsApp o visite nuestro Facebook.</p></div>
+      <div class="overflow-hidden rounded-[2rem] bg-white shadow-xl"><img src="rifa-carro.jpg" class="h-64 w-full object-cover" alt="Rifa de carro"><div class="bg-red-700 p-8 text-white"><h3 class="text-3xl font-black">Rifa de carro</h3><p class="mt-3">Por compras mayores a ₡50.000 recibe una acción. Sorteo el 12 de diciembre.</p></div></div>
+    </div>
+  </section>
+
+  <section id="fotos" class="bg-white py-16">
+    <div class="mx-auto max-w-7xl px-4">
+      <p class="font-bold uppercase tracking-widest text-red-600">Conozca nuestra ferretería</p>
+      <h2 class="mt-2 text-3xl font-black md:text-4xl">Productos, atención y variedad</h2>
+      <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <img src="pinturas.jpg" class="h-64 w-full rounded-3xl object-cover shadow-sm" alt="Pinturas">
+        <img src="pasillo-ferreteria.jpg" class="h-64 w-full rounded-3xl object-cover shadow-sm" alt="Pasillo">
+        <img src="frente-ferreteria.jpg" class="h-64 w-full rounded-3xl object-cover shadow-sm" alt="Frente">
+        <img src="bodega-fontaneria.jpg" class="h-64 w-full rounded-3xl object-cover shadow-sm" alt="Bodega fontanería">
+        <img src="centro-tornillos.jpg" class="h-64 w-full rounded-3xl object-cover shadow-sm" alt="Tornillos">
+        <img src="area-cables.jpg" class="h-64 w-full rounded-3xl object-cover shadow-sm" alt="Cables">
+      </div>
+    </div>
+  </section>
+
+  <section id="ubicacion" class="bg-white py-16">
+    <div class="mx-auto grid max-w-7xl gap-8 px-4 md:grid-cols-2">
+      <div><p class="font-bold uppercase tracking-widest text-red-600">Visítenos</p><h2 class="mt-2 text-3xl font-black md:text-4xl">Ubicación y contacto</h2><p class="mt-4 text-slate-600">Ciruelas, Alajuela, 300 metros noreste del supermercado La Central, frente a la entrada de Boston Scientific.</p></div>
+      <iframe title="Mapa" src="https://maps.google.com/maps?q=Ferreteria%20Vargas%20y%20Araya%20Ciruelas%20Alajuela&t=&z=17&ie=UTF8&iwloc=&output=embed" class="h-[360px] w-full rounded-[2rem] border-0" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer class="bg-slate-950 px-4 py-10 text-white"><div class="mx-auto max-w-7xl"><h2 class="text-2xl font-black">Ferretería Vargas y Araya</h2><p class="mt-2 text-slate-300">Estamos a la orden para todo lo que necesite.</p></div></footer>
 </body>
 </html>
